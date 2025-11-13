@@ -3,8 +3,9 @@ import { Moon, Sun } from "lucide-react";
 
 export default function DarkModeButton() {
   const [dark, setDark] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  // define o tema inicial corretamente
+  // Define o tema inicial corretamente
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -16,10 +17,14 @@ export default function DarkModeButton() {
       document.documentElement.classList.remove("dark");
       setDark(false);
     }
+    
+    setMounted(true);
   }, []);
 
-  // atualiza o tema ao alternar
+  // Atualiza o tema ao alternar
   useEffect(() => {
+    if (!mounted) return;
+    
     if (dark) {
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
@@ -27,13 +32,25 @@ export default function DarkModeButton() {
       document.documentElement.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
-  }, [dark]);
+  }, [dark, mounted]);
+
+  // Evita hidratação inconsistente no SSR
+  if (!mounted) {
+    return (
+      <button
+        className="p-3 rounded-full transition-all duration-300"
+        aria-label="Alternar modo escuro"
+      >
+        <Moon size={24} className="text-gray-400" />
+      </button>
+    );
+  }
 
   return (
     <button
       onClick={() => setDark(!dark)}
       className="p-3 rounded-full transition-all duration-300 hover:scale-110 hover:rotate-12"
-      aria-label="Alternar modo escuro"
+      aria-label={dark ? "Ativar modo claro" : "Ativar modo escuro"}
     >
       {dark ? (
         <Sun
@@ -43,7 +60,7 @@ export default function DarkModeButton() {
       ) : (
         <Moon
           size={24}
-          className="text-gray-900 transition-colors duration-300 hover:text-gray-700"
+          className="text-gray-700 transition-colors duration-300 hover:text-gray-900"
         />
       )}
     </button>

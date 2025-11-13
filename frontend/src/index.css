@@ -3,3 +3,106 @@
 html {
     scroll-behavior: smooth;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Cores para tema claro */
+  --color-surface: #ffffff;
+  --color-surface-foreground: #1f2937;
+  --color-primary: #3b82f6;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f3f4f6;
+  --color-secondary-foreground: #374151;
+  --color-muted: #f9fafb;
+  --color-muted-foreground: #6b7280;
+  --color-accent: #f59e0b;
+  --color-border: #e5e7eb;
+  --color-card: #ffffff;
+  --color-card-foreground: #1f2937;
+}
+
+.dark {
+  /* Cores para tema escuro */
+  --color-surface: #1f2937;
+  --color-surface-foreground: #f9fafb;
+  --color-primary: #60a5fa;
+  --color-primary-foreground: #1f2937;
+  --color-secondary: #374151;
+  --color-secondary-foreground: #f3f4f6;
+  --color-muted: #374151;
+  --color-muted-foreground: #9ca3af;
+  --color-accent: #fbbf24;
+  --color-border: #4b5563;
+  --color-card: #374151;
+  --color-card-foreground: #f9fafb;
+}
+
+/* Utilidades customizadas para cores semânticas */
+@layer utilities {
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+  
+  .text-surface-foreground {
+    color: var(--color-surface-foreground);
+  }
+  
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  
+  .text-primary-foreground {
+    color: var(--color-primary-foreground);
+  }
+  
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+  
+  .text-secondary-foreground {
+    color: var(--color-secondary-foreground);
+  }
+  
+  .bg-muted {
+    background-color: var(--color-muted);
+  }
+  
+  .text-muted-foreground {
+    color: var(--color-muted-foreground);
+  }
+  
+  .text-accent {
+    color: var(--color-accent);
+  }
+  
+  .border-border {
+    border-color: var(--color-border);
+  }
+  
+  .bg-card {
+    background-color: var(--color-card);
+  }
+  
+  .text-card-foreground {
+    color: var(--color-card-foreground);
+  }
+  
+  /* Hover states */
+  .hover\\:text-accent:hover {
+    color: var(--color-accent);
+  }
+  
+  .hover\\:bg-secondary:hover {
+    background-color: var(--color-secondary);
+  }
+  
+  .hover\\:text-primary:hover {
+    color: var(--color-primary);
+  }
+}
+
+/* Transições suaves para todas as cores */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
