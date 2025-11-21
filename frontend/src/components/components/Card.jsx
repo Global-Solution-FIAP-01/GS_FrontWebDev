@@ -1,6 +1,9 @@
-const Card = ({ data }) => {
+const Card = ({ data, onClick }) => {
   return (
-    <div className="rounded-xl shadow-md bg-white p-4 w-64">
+    <div
+      className="rounded-xl shadow-md bg-white p-4 w-64 cursor-pointer hover:shadow-lg transition"
+      onClick={() => onClick(data.id)}
+    >
       {data.image && (
         <img
           src={data.image}
@@ -11,7 +14,7 @@ const Card = ({ data }) => {
       <h2 className="text-lg font-semibold">{data.title}</h2>
       <p className="text-sm text-gray-600 mt-1">{data.description}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

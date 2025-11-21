@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer id="contato" className="w-full bg-surface text-surface-foreground border-t border-border py-10">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col items-center gap-6">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-6">
         <h1 className="text-xl font-semibold text-primary">
           ProLink
         </h1>
