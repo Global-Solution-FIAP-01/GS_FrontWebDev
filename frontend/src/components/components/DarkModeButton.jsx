@@ -5,7 +5,6 @@ export default function DarkModeButton() {
   const [dark, setDark] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  // Define o tema inicial corretamente
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -21,7 +20,6 @@ export default function DarkModeButton() {
     setMounted(true);
   }, []);
 
-  // Atualiza o tema ao alternar
   useEffect(() => {
     if (!mounted) return;
     
@@ -34,7 +32,6 @@ export default function DarkModeButton() {
     }
   }, [dark, mounted]);
 
-  // Evita hidratação inconsistente no SSR
   if (!mounted) {
     return (
       <button

@@ -7,10 +7,9 @@ html {
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  /* Cores para tema claro */
   --color-surface: #ffffff;
-  --color-surface-foreground: #1f2937;
-  --color-primary: #3b82f6;
+  --color-surface-foreground: #1364d6;
+  --color-primary: #eb6111;
   --color-primary-foreground: #ffffff;
   --color-secondary: #f3f4f6;
   --color-secondary-foreground: #374151;
@@ -23,10 +22,9 @@ html {
 }
 
 .dark {
-  /* Cores para tema escuro */
-  --color-surface: #1f2937;
+  --color-surface: #0c0701;
   --color-surface-foreground: #f9fafb;
-  --color-primary: #60a5fa;
+  --color-primary: #eb6111;
   --color-primary-foreground: #1f2937;
   --color-secondary: #374151;
   --color-secondary-foreground: #f3f4f6;
@@ -38,7 +36,6 @@ html {
   --color-card-foreground: #f9fafb;
 }
 
-/* Utilidades customizadas para cores semânticas */
 @layer utilities {
   .bg-surface {
     background-color: var(--color-surface);
@@ -88,7 +85,6 @@ html {
     color: var(--color-card-foreground);
   }
   
-  /* Hover states */
   .hover\\:text-accent:hover {
     color: var(--color-accent);
   }
@@ -102,7 +98,6 @@ html {
   }
 }
 
-/* Transições suaves para todas as cores */
 * {
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }

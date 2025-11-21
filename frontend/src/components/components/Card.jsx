@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Card = ({ data }) => {
   return (
     <div className="rounded-xl shadow-md bg-white p-4 w-64">
