@@ -75,6 +75,8 @@ conectado e humano.
 ## 📁 Estrutura Geral do Projeto
 
     /backend
+     ├── data/
+          ├── profiles.json
      ├── node_modules/
      ├── server.js
      ├── package.json
@@ -160,11 +162,9 @@ O frontend abrirá automaticamente em:
 
 ## 👥 Integrantes do Grupo
 
-  Nome                           RM
-  ------------------------------ --------
-  **Murilo Macedo Pina**         563397
-  **Vitor Carvalho Alexandre**   562298
-  **Alexandre Martins Lucas**    561732
+**Murilo Macedo Pina**         RM: 563397
+**Vitor Carvalho Alexandre**   RM: 562298
+**Alexandre Martins Lucas**    RM: 561732
 
 ------------------------------------------------------------------------
 

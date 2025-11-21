@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cors());
 
-const profiles = require("./profiles.json");
+const profiles = require("./data/profiles.json");
 
 app.get("/api/profiles", (req, res) => {
   res.status(200).json(profiles);
@@ -60,12 +60,6 @@ app.get("/api/profiles/:id", (req, res) => {
 
   res.status(200).json(profile);
 });
-
-/*
-  -----------------------------------------------------
-  SERVIDOR
-  -----------------------------------------------------
-*/
 
 app.listen(PORT, () => {
   console.log(`Servidor rodando em: http://localhost:${PORT}`);

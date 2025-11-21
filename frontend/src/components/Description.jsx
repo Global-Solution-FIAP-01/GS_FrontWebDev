@@ -11,7 +11,7 @@ export default function Descricao() {
   return (
     <section
       id="descricao"
-      className="bg-surface text-surface-foreground py-20 px-6 md:px-16 lg:px-32 transition-colors duration-300">
+      className="w-full bg-surface text-surface-foreground py-20 px-6 md:px-16 lg:px-32 transition-colors duration-300">
       <div className="w-full mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-accent">
           {DESCRIPTION_DATA.title}
