@@ -23,7 +23,7 @@ app.get("/api/profiles/search", (req, res) => {
 
   if (nome) {
     resultado = resultado.filter((p) =>
-      p.title.toLowerCase().includes(nome.toLowerCase())
+      p.nome.toLowerCase().includes(nome.toLowerCase())
     );
   }
 
@@ -41,14 +41,15 @@ app.get("/api/profiles/search", (req, res) => {
 
   if (tecnologia) {
     resultado = resultado.filter((p) =>
-      p.habilidadesTecnicas?.some(
-        (skill) => skill.toLowerCase() === tecnologia.toLowerCase()
+      p.habilidadesTecnicas?.some((skill) =>
+        skill.toLowerCase().includes(tecnologia.toLowerCase())
       )
     );
   }
 
   res.status(200).json(resultado);
 });
+
 
 app.get("/api/profiles/:id", (req, res) => {
   const { id } = req.params;
