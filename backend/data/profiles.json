@@ -1,3242 +1,973 @@
 [
   {
     "id": 1,
-    "title": "Profissional 1",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 1",
+    "cargo": "Analista de Sistemas",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["React", "JavaScript", "Node.js"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
+        "empresa": "TechLabs",
         "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "inicio": "2020-02",
+        "fim": "2021-03",
+        "descricao": "Suporte no desenvolvimento de aplicações internas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 2,
-    "title": "Profissional 2",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 2",
+    "cargo": "Desenvolvedor Backend",
+    "localizacao": "Rio de Janeiro/RJ",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "MySQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "InovaCorp",
+        "cargo": "Júnior",
+        "inicio": "2019-01",
+        "fim": "2021-06",
+        "descricao": "Implementação de APIs e manutenção de sistemas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 3,
-    "title": "Profissional 3",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 3",
+    "cargo": "Desenvolvedor Full Stack",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["Vue.js", "Node.js", "MongoDB"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "WebWorks",
+        "cargo": "Pleno",
+        "inicio": "2018-04",
+        "fim": "2020-12",
+        "descricao": "Desenvolvimento de aplicações web de ponta a ponta."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 4,
-    "title": "Profissional 4",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 4",
+    "cargo": "Engenheiro de Software",
+    "localizacao": "Belo Horizonte/MG",
+    "habilidadesTecnicas": ["Python", "Django", "PostgreSQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "SoftPrime",
+        "cargo": "Júnior",
+        "inicio": "2020-01",
+        "fim": "2023-01",
+        "descricao": "Criação e manutenção de sistemas escaláveis."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 5,
-    "title": "Profissional 5",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 5",
+    "cargo": "Product Owner",
+    "localizacao": "Salvador/BA",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "UX Research"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DigitalHub",
+        "cargo": "PO",
+        "inicio": "2019-07",
+        "fim": "2022-05",
+        "descricao": "Gestão de backlog e definição de roadmap."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 6,
-    "title": "Profissional 6",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 6",
+    "cargo": "DevOps Engineer",
+    "localizacao": "Florianópolis/SC",
+    "habilidadesTecnicas": ["AWS", "Docker", "Kubernetes"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "CloudBridge",
+        "cargo": "Pleno",
+        "inicio": "2020-03",
+        "fim": "2024-01",
+        "descricao": "Implementação de pipelines e infraestrutura em nuvem."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 7,
-    "title": "Profissional 7",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 7",
+    "cargo": "Data Scientist",
+    "localizacao": "Porto Alegre/RS",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "Pandas"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DataMind",
+        "cargo": "Analista",
+        "inicio": "2017-10",
+        "fim": "2020-10",
+        "descricao": "Modelagem preditiva e análises estatísticas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 8,
-    "title": "Profissional 8",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 8",
+    "cargo": "Analista de QA",
+    "localizacao": "Recife/PE",
+    "habilidadesTecnicas": ["Selenium", "Jest", "Cypress"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "QualitySoft",
+        "cargo": "Júnior",
+        "inicio": "2021-05",
+        "fim": "2023-01",
+        "descricao": "Testes automatizados e manuais em aplicações web."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 9,
-    "title": "Profissional 9",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 9",
+    "cargo": "UX Designer",
+    "localizacao": "Fortaleza/CE",
+    "habilidadesTecnicas": ["Figma", "UI Design", "Prototipação"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DesignLab",
+        "cargo": "Designer",
+        "inicio": "2018-06",
+        "fim": "2020-09",
+        "descricao": "Criação de interfaces e fluxos centrados no usuário."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 10,
-    "title": "Profissional 10",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 10",
+    "cargo": "Frontend Developer",
+    "localizacao": "Manaus/AM",
+    "habilidadesTecnicas": ["React", "Typescript", "Styled Components"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "FrontPlus",
+        "cargo": "Pleno",
+        "inicio": "2019-02",
+        "fim": "2022-08",
+        "descricao": "Desenvolvimento de interfaces performáticas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 11,
-    "title": "Profissional 11",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 11",
+    "cargo": "Administrador de Redes",
+    "localizacao": "Goiânia/GO",
+    "habilidadesTecnicas": ["Linux", "Firewall", "VPN"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "NetControl",
+        "cargo": "Analista",
+        "inicio": "2020-02",
+        "fim": "2023-02",
+        "descricao": "Administração de servidores e redes corporativas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 12,
-    "title": "Profissional 12",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 12",
+    "cargo": "Cientista de Dados",
+    "localizacao": "Joinville/SC",
+    "habilidadesTecnicas": ["R", "SQL", "Machine Learning"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "InsightCorp",
+        "cargo": "Pleno",
+        "inicio": "2018-01",
+        "fim": "2021-03",
+        "descricao": "Criação de modelos preditivos e dashboards."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 13,
-    "title": "Profissional 13",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 13",
+    "cargo": "Mobile Developer",
+    "localizacao": "Campo Grande/MS",
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AppMasters",
+        "cargo": "Júnior",
+        "inicio": "2020-06",
+        "fim": "2022-10",
+        "descricao": "Desenvolvimento de aplicativos multiplataforma."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 14,
-    "title": "Profissional 14",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 14",
+    "cargo": "Arquiteto de Software",
+    "localizacao": "Vitória/ES",
+    "habilidadesTecnicas": ["Microservices", "AWS", "Java"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "ArchTech",
+        "cargo": "Arquiteto",
+        "inicio": "2017-01",
+        "fim": "2020-12",
+        "descricao": "Estruturação de arquiteturas escaláveis."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 15,
-    "title": "Profissional 15",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 15",
+    "cargo": "Especialista em Segurança",
+    "localizacao": "Natal/RN",
+    "habilidadesTecnicas": ["Pentest", "OWASP", "SIEM"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "SecureCorp",
+        "cargo": "Analista",
+        "inicio": "2019-08",
+        "fim": "2023-01",
+        "descricao": "Avaliação de vulnerabilidades e implementação de segurança."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 16,
-    "title": "Profissional 16",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 16",
+    "cargo": "Analista de Dados",
+    "localizacao": "Belém/PA",
+    "habilidadesTecnicas": ["Power BI", "SQL", "Python"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DataFlow",
+        "cargo": "Analista",
+        "inicio": "2018-10",
+        "fim": "2021-10",
+        "descricao": "Modelagem de dados e geração de relatórios."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 17,
-    "title": "Profissional 17",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 17",
+    "cargo": "Engenheiro de Machine Learning",
+    "localizacao": "Londrina/PR",
+    "habilidadesTecnicas": ["PyTorch", "ML Ops", "Python"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "BrainTech",
+        "cargo": "Engenheiro",
+        "inicio": "2019-01",
+        "fim": "2023-02",
+        "descricao": "Treinamento e deploy de modelos de IA."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 18,
-    "title": "Profissional 18",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 18",
+    "cargo": "Administrador de Banco de Dados",
+    "localizacao": "Maceió/AL",
+    "habilidadesTecnicas": ["Oracle", "SQL Server", "Backup"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DataHouse",
+        "cargo": "DBA",
+        "inicio": "2016-03",
+        "fim": "2020-01",
+        "descricao": "Administração e otimização de bancos de dados."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 19,
-    "title": "Profissional 19",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 19",
+    "cargo": "Scrum Master",
+    "localizacao": "São Luís/MA",
+    "habilidadesTecnicas": ["Scrum", "Facilitação", "Gestão de Times"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AgileWorks",
+        "cargo": "Scrum Master",
+        "inicio": "2019-09",
+        "fim": "2022-11",
+        "descricao": "Facilitação de cerimônias e remoção de impedimentos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 20,
-    "title": "Profissional 20",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 20",
+    "cargo": "Tech Lead",
+    "localizacao": "Aracaju/SE",
+    "habilidadesTecnicas": ["Node.js", "React", "Arquitetura"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "LeadTech",
+        "cargo": "Líder Técnico",
+        "inicio": "2018-01",
+        "fim": "2023-01",
+        "descricao": "Liderança de equipes e definição técnica de projetos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 21,
-    "title": "Profissional 21",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 21",
+    "cargo": "Data Engineer",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Spark", "Hadoop", "AWS"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "InfoData",
+        "cargo": "Engenheiro",
+        "inicio": "2019-05",
+        "fim": "2022-04",
+        "descricao": "Construção de pipelines e ETLs."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 22,
-    "title": "Profissional 22",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 22",
+    "cargo": "Backend Developer",
+    "localizacao": "Rio de Janeiro/RJ",
+    "habilidadesTecnicas": ["Golang", "Docker", "Redis"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "GoDev",
+        "cargo": "Pleno",
+        "inicio": "2020-07",
+        "fim": "2023-03",
+        "descricao": "Criação de serviços de alta performance."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 23,
-    "title": "Profissional 23",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 23",
+    "cargo": "Frontend Developer",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["Svelte", "Typescript", "CSS"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
+        "empresa": "UIStudio",
+        "cargo": "Júnior",
         "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "fim": "2023-02",
+        "descricao": "Criação de interfaces modernas e acessíveis."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 24,
-    "title": "Profissional 24",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 24",
+    "cargo": "Mobile Developer",
+    "localizacao": "Porto Alegre/RS",
+    "habilidadesTecnicas": ["React Native", "Expo", "GraphQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AppLab",
+        "cargo": "Pleno",
+        "inicio": "2019-03",
+        "fim": "2021-10",
+        "descricao": "Desenvolvimento de apps híbridos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 25,
-    "title": "Profissional 25",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 25",
+    "cargo": "UI Designer",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Figma", "Prototipação", "Design System"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "CreativeX",
+        "cargo": "Designer",
+        "inicio": "2020-04",
+        "fim": "2022-09",
+        "descricao": "Criação de sistemas de design completos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 26,
-    "title": "Profissional 26",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 26",
+    "cargo": "Especialista em Cloud",
+    "localizacao": "Brasília/DF",
+    "habilidadesTecnicas": ["Azure", "Terraform", "Docker"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "CloudNation",
+        "cargo": "Especialista",
+        "inicio": "2017-09",
+        "fim": "2020-11",
+        "descricao": "Gerenciamento de infraestrutura em nuvem."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 27,
-    "title": "Profissional 27",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 27",
+    "cargo": "Engenheiro de Software",
+    "localizacao": "Rio de Janeiro/RJ",
+    "habilidadesTecnicas": ["Kotlin", "Java", "Microservices"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "CodeHouse",
+        "cargo": "Engenheiro",
+        "inicio": "2018-05",
+        "fim": "2023-01",
+        "descricao": "Desenvolvimento de soluções escaláveis."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 28,
-    "title": "Profissional 28",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 28",
+    "cargo": "Analista de Segurança da Informação",
+    "localizacao": "Recife/PE",
+    "habilidadesTecnicas": ["SOC", "Firewall", "SIEM"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "SecureNet",
+        "cargo": "Analista",
+        "inicio": "2019-01",
+        "fim": "2022-07",
+        "descricao": "Monitoramento e resposta a incidentes."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 29,
-    "title": "Profissional 29",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 29",
+    "cargo": "Desenvolvedor Backend",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Node.js", "MySQL", "RabbitMQ"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "FastCode",
+        "cargo": "Pleno",
+        "inicio": "2020-01",
+        "fim": "2023-02",
+        "descricao": "Desenvolvimento de APIs performáticas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 30,
-    "title": "Profissional 30",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 30",
+    "cargo": "Engenheiro de Dados",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["Python", "Kafka", "ETL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DataEngine",
+        "cargo": "Engenheiro",
+        "inicio": "2018-01",
+        "fim": "2020-12",
+        "descricao": "Construção de pipelines de dados."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 31,
-    "title": "Profissional 31",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 31",
+    "cargo": "Product Manager",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Roadmap", "Discovery", "KPIs"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "ProdX",
+        "cargo": "PM",
+        "inicio": "2019-06",
+        "fim": "2022-06",
+        "descricao": "Gestão de produtos digitais."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 32,
-    "title": "Profissional 32",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 32",
+    "cargo": "QA Engineer",
+    "localizacao": "Porto Alegre/RS",
+    "habilidadesTecnicas": ["JUnit", "Selenium", "Cypress"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "TestLab",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-01",
+        "descricao": "Criação de testes automatizados."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 33,
-    "title": "Profissional 33",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 33",
+    "cargo": "Database Engineer",
+    "localizacao": "Fortaleza/CE",
+    "habilidadesTecnicas": ["PostgreSQL", "MongoDB", "Redis"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DBTech",
+        "cargo": "Engenheiro",
+        "inicio": "2018-02",
+        "fim": "2022-10",
+        "descricao": "Criação e modelagem de bancos de dados."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 34,
-    "title": "Profissional 34",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 34",
+    "cargo": "UX Researcher",
+    "localizacao": "São Luís/MA",
+    "habilidadesTecnicas": ["Pesquisa", "Entrevistas", "Mapas de Jornada"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "UserFirst",
+        "cargo": "Pesquisador",
+        "inicio": "2020-05",
+        "fim": "2023-02",
+        "descricao": "Pesquisa aplicada a produtos digitais."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 35,
-    "title": "Profissional 35",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 35",
+    "cargo": "Frontend Developer",
+    "localizacao": "Niterói/RJ",
+    "habilidadesTecnicas": ["React", "Next.js", "Tailwind"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
+        "empresa": "WebFront",
+        "cargo": "Pleno",
         "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "fim": "2023-02",
+        "descricao": "Desenvolvimento de UI com foco em performance."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 36,
-    "title": "Profissional 36",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 36",
+    "cargo": "Data Analyst",
+    "localizacao": "Recife/PE",
+    "habilidadesTecnicas": ["Tableau", "SQL", "Python"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DataVision",
+        "cargo": "Analista",
+        "inicio": "2018-01",
+        "fim": "2020-12",
+        "descricao": "Criação de dashboards e insights."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 37,
-    "title": "Profissional 37",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 37",
+    "cargo": "DevOps Engineer",
+    "localizacao": "Campinas/SP",
+    "habilidadesTecnicas": ["Azure", "Kubernetes", "ArgoCD"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "OpsCloud",
+        "cargo": "DevOps",
+        "inicio": "2019-03",
+        "fim": "2023-01",
+        "descricao": "Automação e CI/CD."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 38,
-    "title": "Profissional 38",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 38",
+    "cargo": "Software Engineer",
+    "localizacao": "João Pessoa/PB",
+    "habilidadesTecnicas": ["Ruby on Rails", "PostgreSQL", "Docker"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "RailsTech",
+        "cargo": "Engenheiro",
+        "inicio": "2018-06",
+        "fim": "2021-04",
+        "descricao": "Desenvolvimento de aplicações completas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 39,
-    "title": "Profissional 39",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 39",
+    "cargo": "Game Developer",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["Unity", "C#", "3D Modeling"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "GameWorks",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-02",
+        "fim": "2023-02",
+        "descricao": "Desenvolvimento de jogos e assets."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 40,
-    "title": "Profissional 40",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 40",
+    "cargo": "IT Support Analyst",
+    "localizacao": "Florianópolis/SC",
+    "habilidadesTecnicas": ["Windows Server", "Linux", "Help Desk"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "TechSupport",
+        "cargo": "Analista",
+        "inicio": "2019-01",
+        "fim": "2021-09",
+        "descricao": "Suporte técnico nível 1 e 2."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 41,
-    "title": "Profissional 41",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 41",
+    "cargo": "Backend Engineer",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["C#", "ASP.NET", "SQL Server"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DotNetCorp",
+        "cargo": "Engenheiro",
+        "inicio": "2017-10",
+        "fim": "2020-12",
+        "descricao": "Desenvolvimento de APIs corporativas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 42,
-    "title": "Profissional 42",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 42",
+    "cargo": "Mobile Developer",
+    "localizacao": "Rio de Janeiro/RJ",
+    "habilidadesTecnicas": ["Swift", "iOS", "Xcode"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "iDevStudio",
+        "cargo": "Júnior",
+        "inicio": "2019-05",
+        "fim": "2022-05",
+        "descricao": "Criação de apps nativos iOS."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 43,
-    "title": "Profissional 43",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 43",
+    "cargo": "Cloud Architect",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["AWS", "GCP", "Docker"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "CloudArch",
+        "cargo": "Arquiteto",
+        "inicio": "2018-03",
+        "fim": "2023-02",
+        "descricao": "Arquitetura de soluções em nuvem."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 44,
-    "title": "Profissional 44",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 44",
+    "cargo": "Full Stack Developer",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Next.js", "Node.js", "MongoDB"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "FullDev",
+        "cargo": "Pleno",
+        "inicio": "2020-01",
+        "fim": "2023-03",
+        "descricao": "Desenvolvimento full stack com foco em escalabilidade."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 45,
-    "title": "Profissional 45",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 45",
+    "cargo": "Frontend Developer",
+    "localizacao": "Campinas/SP",
+    "habilidadesTecnicas": ["Angular", "Typescript", "SCSS"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AngularTech",
+        "cargo": "Júnior",
+        "inicio": "2019-01",
+        "fim": "2021-02",
+        "descricao": "Desenvolvimento de interfaces com Angular."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 46,
-    "title": "Profissional 46",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 46",
+    "cargo": "Machine Learning Engineer",
+    "localizacao": "Recife/PE",
+    "habilidadesTecnicas": ["TensorFlow", "Python", "Data Pipelines"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AIWork",
+        "cargo": "Engenheiro",
+        "inicio": "2020-04",
+        "fim": "2022-10",
+        "descricao": "Criação e deploy de modelos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 47,
-    "title": "Profissional 47",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 47",
+    "cargo": "DevOps",
+    "localizacao": "Natal/RN",
+    "habilidadesTecnicas": ["AWS", "Terraform", "Linux"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
+        "empresa": "OpsTeam",
+        "cargo": "DevOps",
         "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "fim": "2023-01",
+        "descricao": "Automação de infraestrutura."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 48,
-    "title": "Profissional 48",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 48",
+    "cargo": "Software Engineer",
+    "localizacao": "Fortaleza/CE",
+    "habilidadesTecnicas": ["Python", "FastAPI", "SQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "ApiTech",
+        "cargo": "Engenheiro",
+        "inicio": "2018-10",
+        "fim": "2022-12",
+        "descricao": "Criação de APIs performáticas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 49,
-    "title": "Profissional 49",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 49",
+    "cargo": "Product Designer",
+    "localizacao": "Salvador/BA",
+    "habilidadesTecnicas": ["Design System", "Figma", "UX Writing"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DesignLab",
+        "cargo": "Designer",
+        "inicio": "2019-07",
+        "fim": "2021-09",
+        "descricao": "Criação de fluxos e sistemas de design."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 50,
-    "title": "Profissional 50",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 50",
+    "cargo": "Web Developer",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["PHP", "Laravel", "MySQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "WebWorks",
+        "cargo": "Júnior",
+        "inicio": "2017-11",
+        "fim": "2020-06",
+        "descricao": "Desenvolvimento backend para sites e sistemas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 51,
-    "title": "Profissional 51",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 51",
+    "cargo": "SRE",
+    "localizacao": "Brasília/DF",
+    "habilidadesTecnicas": ["Prometheus", "Grafana", "Linux"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "InfraOps",
+        "cargo": "SRE",
+        "inicio": "2020-01",
+        "fim": "2023-01",
+        "descricao": "Monitoramento e confiabilidade de sistemas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 52,
-    "title": "Profissional 52",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 52",
+    "cargo": "Software Developer",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["C#", ".NET Core", "SQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "SoftTech",
+        "cargo": "Pleno",
+        "inicio": "2018-02",
+        "fim": "2021-08",
+        "descricao": "Desenvolvimento de sistemas corporativos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 53,
-    "title": "Profissional 53",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 53",
+    "cargo": "Android Developer",
+    "localizacao": "Rio de Janeiro/RJ",
+    "habilidadesTecnicas": ["Kotlin", "Jetpack Compose", "SQLite"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
+        "empresa": "MobileTech",
+        "cargo": "Júnior",
+        "inicio": "2019-01",
         "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "descricao": "Criação de aplicações Android nativas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 54,
-    "title": "Profissional 54",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 54",
+    "cargo": "Engenheiro de Redes",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Cisco", "Routing", "Switching"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "NetOps",
+        "cargo": "Engenheiro",
+        "inicio": "2017-01",
+        "fim": "2020-01",
+        "descricao": "Gerenciamento de redes corporativas."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 55,
-    "title": "Profissional 55",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 55",
+    "cargo": "QA Automation Engineer",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["Cypress", "Robot Framework", "API Testing"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "QASoft",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-02",
+        "descricao": "Automação de testes em APIs e UI."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
+
   {
     "id": 56,
-    "title": "Profissional 56",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 56",
+    "cargo": "Full Stack Developer",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["Laravel", "Vue.js", "MySQL"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "DevStudio",
+        "cargo": "Pleno",
+        "inicio": "2018-04",
+        "fim": "2021-05",
+        "descricao": "Desenvolvimento full stack."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 57,
-    "title": "Profissional 57",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 57",
+    "cargo": "Engenheiro de Automação",
+    "localizacao": "Campinas/SP",
+    "habilidadesTecnicas": ["PLC", "SCADA", "IoT"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AutoSys",
+        "cargo": "Engenheiro",
+        "inicio": "2019-02",
+        "fim": "2023-01",
+        "descricao": "Desenvolvimento de sistemas industriais."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 58,
-    "title": "Profissional 58",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 58",
+    "cargo": "Backend Developer",
+    "localizacao": "Porto Alegre/RS",
+    "habilidadesTecnicas": ["Rust", "PostgreSQL", "Docker"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "RustLabs",
+        "cargo": "Pleno",
+        "inicio": "2020-06",
+        "fim": "2023-01",
+        "descricao": "Criação de serviços de alta performance."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 59,
-    "title": "Profissional 59",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "nome": "Profissional 59",
+    "cargo": "Data Scientist",
+    "localizacao": "Curitiba/PR",
+    "habilidadesTecnicas": ["Python", "Sklearn", "Deep Learning"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "AIAnalytics",
+        "cargo": "Cientista",
+        "inicio": "2018-01",
+        "fim": "2021-12",
+        "descricao": "Modelagem de dados e machine learning."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   },
   {
     "id": 60,
-    "title": "Profissional 60",
-    "resumo": "Profissional dedicado com experiência em diferentes áreas do mercado.",
-    "foto": "https://via.placeholder.com/300x200",
-    "cargo": "Analista",
+    "nome": "Profissional 60",
+    "cargo": "Engenheiro de Software",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "JavaScript",
-      "Node.js"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Resiliência"
-    ],
+    "habilidadesTecnicas": ["JavaScript", "Node.js", "AWS"],
     "experiencias": [
       {
-        "empresa": "Empresa X",
-        "cargo": "Estagiário",
-        "inicio": "2021-01",
-        "fim": "2022-01",
-        "descricao": "Atuação no desenvolvimento de projetos internos."
+        "empresa": "CloudDev",
+        "cargo": "Engenheiro",
+        "inicio": "2019-01",
+        "fim": "2022-12",
+        "descricao": "Desenvolvimento de sistemas distribuídos."
       }
-    ],
-    "formacao": [
-      {
-        "curso": "Análise e Desenvolvimento de Sistemas",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "certificacoes": [
-      "Scrum Study"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Intermediário"
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Sistema Interno",
-        "link": "https://github.com/user/projeto",
-        "descricao": "Sistema desenvolvido para gestão interna."
-      }
-    ],
-    "areaInteresses": [
-      "Tecnologia",
-      "Inovação"
     ]
   }
 ]

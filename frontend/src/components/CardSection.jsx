@@ -52,13 +52,13 @@ const CardSection = () => {
   };
 
   return (
-    <section className="flex flex-col items-center w-full bg-surface p-4 min-h-[400px]">
+    <section id="cards" className="flex flex-col items-center w-full bg-surface p-4 min-h-[400px]">
       <input
         type="text"
         placeholder="Buscar por nome, cargo, cidade ou habilidade..."
         value={search}
         onChange={handleSearchChange}
-        className="w-1/2 p-3 mb-10 rounded-xl bg-card text-foreground border border-border focus:outline-none"
+        className="w-1/2 p-3 mb-10 rounded-xl bg-card border border-border focus:outline-none"
       />
 
       {loading && (
